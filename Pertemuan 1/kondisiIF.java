@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class kondisiIF{
+public static void main(String[] args) {
+int age=0;
+Scanner sc = new Scanner(System.in);
+System.out.println("Masukkan umur anda:");
+age = sc.nextInt();
+if(age>=17)
+System.out.print("Anda sudah boleh buat KTP");
+ }
+} 
+/*
+kode diats bertujuan untuk input umur, dan penentu apakah boleh membuat ktp
+atau tidak dengan stetmen age>=17
+*/
