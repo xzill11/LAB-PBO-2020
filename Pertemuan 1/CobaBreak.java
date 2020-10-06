@@ -11,8 +11,8 @@ break;
 System.out.print('*');
 }
 System.out.println();
-}
-}
+    }
+  }
 } 
 /*
 paada sistem ini menggunakna break untuk memberhenti perulangan
