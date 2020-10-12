@@ -10,7 +10,7 @@ default:System.out.println("Not in 10, 20 or 30");
 }
 }
 /*
-berbeda dengan swicth sebelumnya. pad kode ini tidak mempunyai
+berbeda dengan  swicth sebelumnya. pad kode ini tidak mempunyai
 break. maka pogram tetap dijalankan meski nilai bukan 20
 
 */
