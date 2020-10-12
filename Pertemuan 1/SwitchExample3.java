@@ -29,5 +29,5 @@ System.out.println(typeOfDay);
 kode ini bertujuan untuk  mecoba swict case pada string
 dkarenakan thursday termasuk midweek . maka pogram berhenti dan 
 print midweek, jika hari tidak ada dallm daftar maka sistem akan print
-default yaitu  invalid
+default yaitu  invalid.
 */
