@@ -11,4 +11,5 @@ public class CopyArray2{
 		for (int i=0; i<array2.length; i++)
 		System.out.print(array2[i] + " ");
 	}
-}
+}/*kode diatas bertujuan untuk membandingkan/menguji kesamaan string
+ antara array 1 dan 2*/

@@ -25,4 +25,6 @@ public class CariPanjangElemen {
 		System.out.println(x[1][1][0].length);
 		System.out.println(x[1][1][1].length);
 	}
-}
+}/* Program diatas untuk mencari panjang elemen dari suatu
+array dengan memakai atribut length, karena setiap kita
+membuat array kita selalu mendefinisikan ukuran array */

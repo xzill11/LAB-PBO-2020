@@ -13,4 +13,6 @@ public class CopyArray {
 		for (int i=0; i<array2.length; i++)
 		System.out.print(array2[i] + " ");
 	}
-}
+}/* Program diatas adalah contoh program menyalin array,
+isi dari suatu array dapat di copy pada array yang lain
+dengan memanfaatkan method arraycopy() pada class system */
