@@ -1,0 +1,31 @@
+Number 1
+==========
+Buatlah sebuah sistem Rekening Bank sederhana menggunakan konsep OOP;
+
+Spesifikasi :
+1. Akun bank mempunyai jumlah saldo
+2. Dapat melakukan setor saldo
+	-> Setiap setor maka saldo bertambah
+3. Dapat melakukan penarikan saldo
+	-> Setiap tarik maka saldo berkurang
+	-> Jika jumlah penarikan melebihi saldo maka tampilkan error
+
+Challenge : Tambahkan PIN
+	-> Setiap transaksi harus memasukkan PIN
+	-> PIN dapat diganti sesuai keinginan
+
+Number 2
+==========
+Buatlah permainan Hero Fighting sederhana menggunakan konsep OOP;
+
+Spesifikasi:
+1. Hero memiliki Health Poin (HP) dan Attack Poin (AP)
+	-> HP awal semua Hero adalah 100 (maks. 100)
+	-> Setiap Hero memiliki AP yang berbeda-beda
+	-> Saat HP Hero mencapai 0 maka Game Over
+
+2. Hero dapat menyerang
+	-> Setiap serangan mengurangi HP lawan sebanyak AP penyerang
+3. Hero dapat melakukan Healing (penyembuhan)
+
+Challenge : Buat sistem Multiplayer yang menyerang secara bergantian
