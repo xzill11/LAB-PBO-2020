@@ -31,43 +31,53 @@ public class Main{
 
             System.out.print("\n\nPilihan anda: ");
             pilihanUser = input.next();
+            int jmlh = bus.getJumlahPenumpangBiasa() + bus.getJumlahPenumpangPrioritas();
 
             switch (pilihanUser) {
                 case "1":
-                    System.out.println("\n======================");
-                    System.out.println("LIST SELURUH PENUMPANG");
-                    System.out.println("======================");
-                    bus.display();
+                    if(jmlh == 0){
+                        System.out.println("\nPenumpang Belum Ada Loh!");
+                    }else{
+                        System.out.println("\n======================");
+                        System.out.println("LIST SELURUH PENUMPANG");
+                        System.out.println("======================");
+                        bus.display();
+                    }
                     break;
                 case "2":
-                    System.out.println("\n=====================");
-                    System.out.println("TAMBAH DATA PENUMPANG");
-                    System.out.println("=====================");
-                    System.out.print("Nama : ");nama=input.next();
-                    System.out.print("Umur : "); umur=input.nextInt();
-                    System.out.print("Hamil (y/n) : "); inputHamil = input.next().charAt(0);
-                    if (inputHamil == 'y') {
+                    if (jmlh < 6){
+                        System.out.println("\n=====================");
+                        System.out.println("TAMBAH DATA PENUMPANG");
+                        System.out.println("=====================");
+                        System.out.print("Nama : ");nama=input.next();
+                        System.out.print("Umur : "); umur=input.nextInt();
+                        System.out.print("Hamil (y/n) : "); inputHamil = input.next().charAt(0);
+                        if (inputHamil == 'y') {
                         hamil = true;
-                    }else {
-                        hamil = false;
-                    }
-                    penumpang = new Penumpang(nama, umur, hamil);
-                    berhasilNaik = bus.naik(penumpang);
-                    if(berhasilNaik){
-                        System.out.println("\n++Penumpang Berhasil Ditambah++");
+                        }else {
+                            hamil = false;
+                        }
+                        penumpang = new Penumpang(nama, umur, hamil);
+                        berhasilNaik = bus.naik(penumpang);
                         bus.display();
-                    }else{
-                        System.out.println("\n++Bus Sudah Penuh++");
+                    }
+                    else{
+                        System.out.println("==Penumpang Penuh!==");
+                        bus.display();
                     }
                     break;
                 case "3":
-                    System.out.println("\n==================");
-                    System.out.println("HAPUS DATA PENUMPANG");
-                    System.out.println("====================");
-                    bus.display();
-                    System.out.println("input nama yang dihapus :");nama=input.next();
-                    bus.turun(nama);
-                    bus.display();
+                    if(jmlh == 0){
+                        System.out.println("\nPenumpang Belum Ada Loh!");
+                    }else{
+                        System.out.println("\n==================");
+                        System.out.println("HAPUS DATA PENUMPANG");
+                        System.out.println("====================");
+                        bus.display();
+                        System.out.println("\ninput nama yang dihapus :");nama=input.next();
+                        bus.turun(nama);
+                        bus.display();
+                    }
                     break;
                 default:
                     System.err.println("\nInput anda tidak ditemukan\nSilahkan pilih [1-3]");    
