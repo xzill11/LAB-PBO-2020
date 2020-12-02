@@ -56,17 +56,28 @@ public class Bus{
 
 	//display
 	public void display(){
-		System.out.println("\n\n===Penumpang Biasa===\n");
-		for(int i=0; i < getJumlahPenumpangBiasa(); i++){
-			System.out.println(penumpangBiasa.get(i));
+		
+		if ( getJumlahPenumpangBiasa() == 0) {
+			System.out.println("\nPenumpang Biasa Belum Ada");
 		}
-		System.out.println("\n\n===Penumpang Prioritas===\n");
-		for(int i=0; i < getJumlahPenumpangPrioritas(); i++){
-			System.out.println(penumpangPrioritas.get(i));
+		else{
+			System.out.println("\n===Penumpang Biasa===\n");
+			for(int i=0; i < getJumlahPenumpangBiasa(); i++){
+			System.out.println(penumpangBiasa.get(i));
+			}
+		}
+		System.out.println("-------------------------------");
+
+		if ( getJumlahPenumpangPrioritas() == 0){
+			System.out.println("\nPenumpang Prioritas Belum Ada");
+		}
+		else{	
+			System.out.println("\n===Penumpang Prioritas===\n");
+			for(int i=0; i < getJumlahPenumpangPrioritas(); i++){
+				System.out.println(penumpangPrioritas.get(i));
+			}
 		}
 		int jmlh = getJumlahPenumpangBiasa() + getJumlahPenumpangPrioritas();
 		System.out.println("\nJumlah Penumpang : "+jmlh);
 	}
-}
-	
-	
+}	
