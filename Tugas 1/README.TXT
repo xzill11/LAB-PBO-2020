@@ -11,5 +11,13 @@ Cara kerja kode :
 Compile dan Run
 - jika pada vsc maka open folder lalu run di main.java
 - jika menggunakan cmd/terminal maka compile terlebih dahulu file Bus.java bersamaan dengan Penumpang bersamaan, lalu dilanjutkan dengan compile file. main.java
+ 
+ javac kode/project/Bus.java kode/project/Penumpang.java
+ 
+ javac kode/main/Main.java
+ 
+ *RUN !
+ java kode/main/Main
+ 
  untuk lebih jelasnya https://stackoverflow.com/questions/49726564/javac-main-java-is-not-working-in-cmd/49726625
- lalu run file Main nya
+
