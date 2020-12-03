@@ -8,6 +8,7 @@ Tugas 1 Lab pbo 2020
 Cara kerja kode :
 - sistem bus merupakan isi kode ini, yang mana didalam bus hanya terdapat 6 bangku, 4 bangku biasa yang bole di duduki oleh siapa saja, 
   dan 2 bangku prioritas yang hanya bole di duduki oleh wanita hamil, usia <10, dan lansia >60.
+  Apabila kursi prioritas sudah penuh , maka penumpang bersifat priotitas itu akan duduk di kursi biasa.
 - setiap penumpang akan ditampung dalam arraylist, terdapat 3 array list, yaitu arraylist penumpang biasa, arraylist priotitas.
 
 Compile dan Run
