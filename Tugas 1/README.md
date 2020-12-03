@@ -1,5 +1,7 @@
 ## Tugas 1 Lab pbo 2020 :bus:
 
+```Fazil Basri 1908107010032```
+
 - Code ini bertujuan untuk memenuhi tugas yang diberikan pada praktikum lab pbo 2020
 - Code menerapkan sistem CRUD tambah,hapus, dan lihat daata.
 - Pada code ini terdapat 3 file yaitu, Main.java dalam folder main sebagai file utama untuk menjalankan program, file Bus.java dan file Penumpang.java 
