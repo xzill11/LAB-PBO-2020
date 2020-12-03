@@ -12,8 +12,8 @@ Cara kerja kode :
 
 Compile dan Run
 - jika pada vsc maka open folder lalu run di main.java
-- jika menggunakan cmd/terminal maka compile terlebih dahulu file Bus.java bersamaan dengan Penumpang bersamaan, 
-  lalu dilanjutkan dengan compile file. main.java
+- jika menggunakan cmd/terminal maka compile terlebih dahulu file Bus.java bersamaan dengan Penumpang, 
+  lalu dilanjutkan dengan compile file. Main.java
  
  javac kode/project/Bus.java kode/project/Penumpang.java
  
