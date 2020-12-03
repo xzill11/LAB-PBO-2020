@@ -5,12 +5,14 @@ Tugas 1 Lab pbo 2020
 - Pada code ini terdapat 3 file yaitu, Main.java dalam folder main sebagai file utama untuk menjalankan program, file Bus.java dan file Penumpang.java terdapat dalm folder project.
 
 Cara kerja kode :
-- sistem bus merupakan isi kode ini, yang mana didalam bus hanya terdapat 6 bangku, 4 bangku biasa yang bole di duduki oleh siapa saja, dan 2 bangku prioritas yang hanya bole di duduki oleh wanita hamil, usia <10, dan lansia >60.
+- sistem bus merupakan isi kode ini, yang mana didalam bus hanya terdapat 6 bangku, 4 bangku biasa yang bole di duduki oleh siapa saja, 
+  dan 2 bangku prioritas yang hanya bole di duduki oleh wanita hamil, usia <10, dan lansia >60.
 - setiap penumpang akan ditampung dalam arraylist, terdapat 3 array list, yaitu arraylist penumpang biasa, arraylist priotitas.
 
 Compile dan Run
 - jika pada vsc maka open folder lalu run di main.java
-- jika menggunakan cmd/terminal maka compile terlebih dahulu file Bus.java bersamaan dengan Penumpang bersamaan, lalu dilanjutkan dengan compile file. main.java
+- jika menggunakan cmd/terminal maka compile terlebih dahulu file Bus.java bersamaan dengan Penumpang bersamaan, 
+  lalu dilanjutkan dengan compile file. main.java
  
  javac kode/project/Bus.java kode/project/Penumpang.java
  
