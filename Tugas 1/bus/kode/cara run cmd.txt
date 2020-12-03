@@ -1,4 +1,0 @@
-Pogram menggunakan package. jika di cmd proses compile dan run akan berbeda. mohon lihat ini jika eror di cmd, karena 
-file ini menggunakan visualcode untuk compile dan run.
-
-https://stackoverflow.com/questions/49726564/javac-main-java-is-not-working-in-cmd/49726625
