@@ -1,18 +1,15 @@
-Tugas 1
+Tugas 1 Lab pbo 2020
 
-tugas dijalankan dengan visual code windows
+- code ini bertujuan untuk memenuhi tugas yang diberikan pada praktikum lab pbo 2020
+- Code menerapkan sistem CRUD tambah,hapus, dan lihat daata.
+- Pada code ini terdapat 3 file yaitu, Main.java dalam folder main sebagai file utama untuk menjalankan program, file Bus.java dan file Penumpang.java terdapat dalm folder project.
 
-Untuk Run di CMD caranya
-https://stackoverflow.com/questions/49726564/javac-main-java-is-not-working-in-cmd/49726625
+Cara kerja kode :
+- sistem bus merupakan isi kode ini, yang mana didalam bus hanya terdapat 6 bangku, 4 bangku biasa yang bole di duduki oleh siapa saja, dan 2 bangku prioritas yang hanya bole di duduki oleh wanita hamil, usia <10, dan lansia >60.
+- setiap penumpang akan ditampung dalam arraylist, terdapat 3 array list, yaitu arraylist penumpang biasa, arraylist priotitas.
 
-Kode pada folder ini bertujuan untuk  membuat
-program sederhana untuk mengelola penumpang di bus Trans Koetaradja
-dengan 
--class penumpang
--class bus
--class main
-
-didalam pogram terdapat  3 menu untuk
-- lihat penumpang
--menaikkan penumpang
--turunkan penumpang
+Compile dan Run
+- jika pada vsc maka open folder lalu run di main.java
+- jika menggunakan cmd/terminal maka compile terlebih dahulu file Bus.java bersamaan dengan Penumpang bersamaan, lalu dilanjutkan dengan compile file. main.java
+ untuk lebih jelasnya https://stackoverflow.com/questions/49726564/javac-main-java-is-not-working-in-cmd/49726625
+ lalu run file Main nya
