@@ -3,15 +3,15 @@
 ```Fazil Basri 1908107010032```
 
 - Code ini bertujuan untuk memenuhi tugas yang diberikan pada praktikum lab pbo 2020
-- Code menerapkan sistem CRUD tambah,hapus, dan lihat daata.
+- Code menerapkan sistem CRUD tambah,hapus, dan lihat data.
 - Pada code ini terdapat 3 file yaitu, Main.java dalam folder main sebagai file utama untuk menjalankan program, file Bus.java dan file Penumpang.java 
    terdapat dalm folder project.
 
 ### Cara kerja kode :
-- sistem bus merupakan isi kode ini, yang mana didalam bus hanya terdapat 6 bangku, 4 bangku biasa yang bole di duduki oleh siapa saja, 
-  dan 2 bangku prioritas yang hanya bole di duduki oleh wanita hamil, usia <10, dan lansia >60.
+- sistem bus merupakan isi kode ini, yang mana didalam bus hanya terdapat 6 kursi, 4 kursi biasa yang boleh di isi oleh siapa saja, 
+  dan 2 kursi prioritas yang hanya bole di isi oleh wanita hamil, usia <10, dan lansia >60.
   Apabila kursi prioritas sudah penuh , maka penumpang bersifat priotitas itu akan duduk di kursi biasa.
-- Jika semua kursi penuh maka akan terdpat tampilan penumpang penuh, lalu display data penumpang
+- Jika semua kursi penuh maka akan terdapat tampilan penumpang penuh, lalu display data penumpang
 - setiap penumpang akan ditampung dalam arraylist, terdapat 2 array list, yaitu arraylist penumpang biasa, arraylist priotitas.
 
 #### Compile dan Run
