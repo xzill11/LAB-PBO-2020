@@ -2,7 +2,8 @@ Tugas 1 Lab pbo 2020
 
 - code ini bertujuan untuk memenuhi tugas yang diberikan pada praktikum lab pbo 2020
 - Code menerapkan sistem CRUD tambah,hapus, dan lihat daata.
-- Pada code ini terdapat 3 file yaitu, Main.java dalam folder main sebagai file utama untuk menjalankan program, file Bus.java dan file Penumpang.java terdapat dalm folder project.
+- Pada code ini terdapat 3 file yaitu, Main.java dalam folder main sebagai file utama untuk menjalankan program, file Bus.java dan file Penumpang.java 
+   terdapat dalm folder project.
 
 Cara kerja kode :
 - sistem bus merupakan isi kode ini, yang mana didalam bus hanya terdapat 6 bangku, 4 bangku biasa yang bole di duduki oleh siapa saja, 
