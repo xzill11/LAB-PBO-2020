@@ -1,4 +1,4 @@
-## Tugas 1 Lab pbo 2020
+## Tugas 1 Lab pbo 2020 :bus:
 
 - Code ini bertujuan untuk memenuhi tugas yang diberikan pada praktikum lab pbo 2020
 - Code menerapkan sistem CRUD tambah,hapus, dan lihat daata.
@@ -24,5 +24,5 @@
  *RUN !
  ```java kode/main/Main```
  
- untuk lebih jelasnya https://stackoverflow.com/questions/49726564/javac-main-java-is-not-working-in-cmd/49726625
+ untuk lebih jelasnya https://stackoverflow.com/questions/49726564/javac-main-java-is-not-working-in-cmd/49726625  :grinning:
 
