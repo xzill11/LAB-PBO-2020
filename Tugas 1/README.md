@@ -1,4 +1,4 @@
-Tugas 1 Lab pbo 2020
+## Tugas 1 Lab pbo 2020
 
 - code ini bertujuan untuk memenuhi tugas yang diberikan pada praktikum lab pbo 2020
 - Code menerapkan sistem CRUD tambah,hapus, dan lihat daata.
