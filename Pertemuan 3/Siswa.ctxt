@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Siswa
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Siswa\ here.\r\n\r\n\ @author\ (Siti\ Nur\ Aisha)\r\n\ @version\ (05/12/2020)\r\n
+comment1.params=nrpx\ namax
+comment1.target=Siswa(int,\ java.lang.String)
+comment2.params=nrpx
+comment2.target=void\ setNrp(int)
+comment3.params=
+comment3.target=int\ getNrp()
+comment4.params=namax
+comment4.target=void\ setNama(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getNama()
+numComments=6
