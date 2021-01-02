@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Manusia
+comment0.text=\r\n\ class\ Manusia\ yg\ merupakan\ subkelas\ dari\ MakhlukHidup.\r\n\ \r\n\ @author\ Viska\r\n\ @version\ 23\ des\ 2011\r\n
+comment1.params=
+comment1.target=Manusia()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Manusia\r\n
+comment2.params=
+comment2.target=void\ berjalan()
+comment2.text=\r\n\ Method\ berjalan\ yang\ dioverride\ oleh\ Manusia\r\n\ \r\n\ \r\n
+numComments=3

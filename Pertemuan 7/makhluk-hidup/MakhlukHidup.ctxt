@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MakhlukHidup
+comment0.text=\r\n\ Abstract\ class\ MakhlukHidup\ -\ write\ a\ description\ of\ the\ class\ here\r\n\ \r\n\ @author\ Viska\r\n\ @version\ 23\ des\ 2011\r\n
+comment1.params=
+comment1.target=void\ bernapas()
+comment1.text=\r\n\ Method\ kongkrit\ bernapas\r\n\ \r\n
+comment2.params=
+comment2.target=void\ makan()
+comment2.text=\r\n\ Method\ kongkrit\ makan\r\n\ \r\n
+comment3.params=
+comment3.target=void\ berjalan()
+comment3.text=\r\n\ Method\ abstract\ berjalan\ yg\ wajib\ di\ override\ oleh\ subkelas\r\n\ \r\n
+numComments=4

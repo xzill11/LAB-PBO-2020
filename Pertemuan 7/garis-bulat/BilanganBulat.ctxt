@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=BilanganBulat
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ BilanganBulat\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=y
+comment1.target=BilanganBulat(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BilanganBulat\r\n
+comment2.params=
+comment2.target=int\ getNilai()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment3.params=y
+comment3.target=void\ setNilai(int)
+comment4.params=a\ b
+comment4.target=boolean\ lebihBesar(java.lang.Object,\ java.lang.Object)
+comment5.params=a\ b
+comment5.target=boolean\ lebihKecil(java.lang.Object,\ java.lang.Object)
+comment6.params=a\ b
+comment6.target=boolean\ samaDengan(java.lang.Object,\ java.lang.Object)
+comment7.params=y
+comment7.target=double\ bagi(int)
+numComments=8

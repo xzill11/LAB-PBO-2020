@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Pembanding
+comment0.text=\r\n\ Write\ a\ description\ of\ interface\ Pembanding\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=a\ b
+comment1.target=boolean\ lebihBesar(java.lang.Object,\ java.lang.Object)
+comment2.params=a\ b
+comment2.target=boolean\ lebihKecil(java.lang.Object,\ java.lang.Object)
+comment3.params=a\ b
+comment3.target=boolean\ samaDengan(java.lang.Object,\ java.lang.Object)
+numComments=4

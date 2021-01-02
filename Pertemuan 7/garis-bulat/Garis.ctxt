@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Garis
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Garis\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=koordinat_x1\ koordinat_y1\ koordinat_x2\ koordinat_y2
+comment1.target=Garis(int,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Garis\r\n
+comment2.params=
+comment2.target=double\ panjangGaris()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment3.params=a\ b
+comment3.target=boolean\ lebihBesar(java.lang.Object,\ java.lang.Object)
+comment4.params=a\ b
+comment4.target=boolean\ lebihKecil(java.lang.Object,\ java.lang.Object)
+comment5.params=a\ b
+comment5.target=boolean\ samaDengan(java.lang.Object,\ java.lang.Object)
+numComments=6
